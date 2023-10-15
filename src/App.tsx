@@ -1,4 +1,3 @@
-import React from "react";
 import "./App.css";
 import Nav from "./components/Nav";
 import Banner from "./components/Banner";
@@ -13,7 +12,6 @@ function App() {
     <div className="">
       <Nav />
       <Banner />
-
       <About />
       <Info />
       <Product />

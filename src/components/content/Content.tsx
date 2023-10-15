@@ -1,4 +1,12 @@
-function Content({ heading, para }) {
+
+interface ContentProps {
+  heading: string;
+  para: string;
+}
+const Content: React.FC<ContentProps> = (props) => {
+
+ const { heading, para } = props;
+ 
   return (
     <>
       <a
