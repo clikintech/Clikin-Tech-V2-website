@@ -1,4 +1,4 @@
-function Img({ src }) {
+function Img() {
   return (
     <>
       <li>
@@ -6,7 +6,7 @@ function Img({ src }) {
           href="/"
           rel="noreferrer"
           target="_blank"
-          class="text-gray-700 transition hover:text-gray-700/75"
+          className="text-gray-700 transition hover:text-gray-700/75"
         >
           <svg
             width="80"
@@ -51,7 +51,7 @@ function Img({ src }) {
           href="/"
           rel="noreferrer"
           target="_blank"
-          class="text-gray-700 transition hover:text-gray-700/75"
+          className="text-gray-700 transition hover:text-gray-700/75"
         >
           <svg
             width="81"
@@ -108,7 +108,7 @@ function Img({ src }) {
           href="/"
           rel="noreferrer"
           target="_blank"
-          class="text-gray-700 transition hover:text-gray-700/75"
+          className="text-gray-700 transition hover:text-gray-700/75"
         >
           <svg
             width="81"
@@ -153,7 +153,7 @@ function Img({ src }) {
           href="/"
           rel="noreferrer"
           target="_blank"
-          class="text-gray-700 transition hover:text-gray-700/75"
+          className="text-gray-700 transition hover:text-gray-700/75"
         >
           <svg
             width="80"
@@ -193,7 +193,7 @@ function Img({ src }) {
           href="/"
           rel="noreferrer"
           target="_blank"
-          class="text-gray-700 transition hover:text-gray-700/75"
+          className="text-gray-700 transition hover:text-gray-700/75"
         >
           <svg
             width="81"
@@ -228,7 +228,7 @@ function Img({ src }) {
           href="/"
           rel="noreferrer"
           target="_blank"
-          class="text-gray-700 transition hover:text-gray-700/75"
+          className="text-gray-700 transition hover:text-gray-700/75"
         >
           <svg
             width="81"
@@ -263,7 +263,7 @@ function Img({ src }) {
           href="/"
           rel="noreferrer"
           target="_blank"
-          class="text-gray-700 transition hover:text-gray-700/75"
+          className="text-gray-700 transition hover:text-gray-700/75"
         >
           <svg
             width="80"

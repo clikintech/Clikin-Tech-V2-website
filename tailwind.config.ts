@@ -73,18 +73,11 @@ module.exports = {
       "-60px": "-60px",
 
       "75vw": "75vw",
-      "70vw": "70vw",
+      // "70vw": "70vw",
       "65vw": "65vw",
       "50vw": "50vw",
       "100hw": "100hw",
 
-
-
-
-
-
-
-      
 
 },
 height: {

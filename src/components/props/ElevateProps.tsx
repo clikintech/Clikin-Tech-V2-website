@@ -1,4 +1,15 @@
-function ElevateProps({ heading, para, src }) {
+
+import React from 'react';
+
+interface ElevateProps {
+  heading: string;
+  para: string;
+  src: string;
+}
+const ElevateProps: React.FC<ElevateProps> = (props) => {
+
+  const { heading, para, src } = props;
+
   return (
     <>
       <a

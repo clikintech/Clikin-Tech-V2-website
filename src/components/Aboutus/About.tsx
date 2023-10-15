@@ -6,7 +6,7 @@ import Service from "./Service";
 function About() {
   return (
     <>
-      <section className=" mt-400px max-w-screen-4xl overflow-hidden sm:grid sm:grid-cols-2 sm:items-center lg:mt--50px bg-slate-50 ">
+      <section className=" max-w-screen-4xl overflow-hidden sm:grid sm:grid-cols-2 sm:items-center lg:mt--50px bg-slate-50 ">
         <div className="p-50px md:p-12 lg:px-16 lg:py-24">
           <div className=" ml-60px  w-600px text-center ltr:sm:text-left rtl:sm:text-right">
             <p className="pb-8 text-xl flex justify-start items-start text-blacky">
