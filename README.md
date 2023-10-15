@@ -1,27 +1,43 @@
-# React + TypeScript + Vite
+# Clikin Tech V2 Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a user interface (UI) built with TypeScript and Tailwind CSS.
 
-Currently, two official plugins are available:
+## Project Structure
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The project includes the following files and directories:
 
-## Expanding the ESLint configuration
+- **index.html:** The main HTML file for the project.
+- **node_modules:** The directory containing project dependencies.
+- **package.json:** The project's package configuration file.
+- **package-lock.json:** The file specifying the exact versions of dependencies.
+- **postcss.config.js:** Configuration file for PostCSS.
+- **public:** The public directory for static assets.
+- **README.md:** This documentation file.
+- **src:** The source code directory.
+- **tailwind.config.ts:** Configuration file for Tailwind CSS.
+- **tsconfig.json:** TypeScript configuration file.
+- **tsconfig.node.json:** Another TypeScript configuration file.
+- **vite.config.ts:** Configuration file for Vite, the build tool used in the project.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Usage
 
-- Configure the top-level `parserOptions` property like this:
+To run the project locally, follow these steps:
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+1. Clone the project repository:
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+   ```bash
+   git clone https://github.com/MrutyunjayPanda/Clikin-Tech-V2-website.git
+
+   ```
+
+2. Navigate to the project directory:
+
+   cd Clikin-Tech-V2-website
+
+3. Install the project dependencies:
+
+   npm install
+
+4. Start the development server:
+
+   npm run dev
